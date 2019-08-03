@@ -1,10 +1,26 @@
 import React from 'react';
+import seed from './seed';
+export default class App extends React.Component {
+  constructor(props) {
+    super(props);
 
-function App() {
-  return (
-    <div className="App">
+    this.state = {
+      items: []
+    }
+  }
+
+  componentDidMount() {
+    this.setState({
+      items: seed.groups
+    })
+  }
+
+  render() {
+    console.log(this.state.items)
+    return (
+    <div className="App" >
+        
     </div>
-  );
+    );
+  }
 }
-
-export default App;
