@@ -4,6 +4,14 @@
     box-shadow: $green-2 1px 1px 3px 2px;
     margin: 2rem;
     max-height: 55.3rem;
+    transition: .2s;
+    animation: fadeIn 1s ease-in backwards;
+
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-3px);
+    }
 
     li {
         list-style-type: none;
