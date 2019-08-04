@@ -34,7 +34,7 @@ export default class Item extends React.Component {
 
         return (
             <>
-                <div className="product" style={this.props.style}>
+                <div className="product" style={this.props.style} tabIndex={this.props.tab}>
                     <div className="product__hero">
                         <img className="product__image" src={item.hero.href} alt={item.name} />
                         <p className="product__name-overlay">{item.name}</p>
