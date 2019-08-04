@@ -1,0 +1,96 @@
+.product {
+    padding: 1rem;
+    border-radius: .7rem;
+    box-shadow: rgb(211, 211, 211) 1px 1px 3px 2px;
+    margin: 1rem 0;
+    li {
+        list-style-type: none;
+    }
+    
+    &__hero {
+        position: relative;
+        line-height: 0;
+    }
+
+    &__image {
+        width: 25rem;
+    }
+
+    &__name-overlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        padding: 0 1rem;
+        background-color: rgba($white-2, .8);
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+
+    &__price-overlay {
+        position: absolute;
+        bottom: 0;
+        padding: 1.5rem 1rem;
+        margin: 2rem 1rem;
+        background-color: rgba($grey-1, .8);
+        font-size: 1.6rem;
+        color: $white-1;
+    }
+
+    &__details {
+
+    }
+
+    &__details-list {
+
+    }
+
+    &__specifications {
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__name {
+        font-size: 1.3rem;
+    }
+
+    &__flag-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    &__icon {
+        width: 2rem;
+        margin-right: 1rem;
+    }
+
+    &__flag {
+        display: inline-block;
+        text-transform: lowercase;
+        font-size: 1.1rem;
+
+        &::first-letter {
+            text-transform: uppercase;
+        }
+    }
+
+    &__messages-container {
+
+    }
+
+    &__message {
+        display: inline-block;
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: $green-1;
+        letter-spacing: 1px;
+    }
+
+    &__price-range {
+        display: inline-block;
+        font-size: 1.3rem;
+        letter-spacing: 1px;
+        font-weight: 700;
+    }
+}
