@@ -25,7 +25,7 @@ export default class Item extends React.Component {
 
         let flags = item.flags.map( (flags, index) => {
             return (
-                <li className="product__specifications" key={index}>
+                <li className="product__specifications u-spaceby-33" key={index}>
                     <img className="product__icon" src={flagIcons[`${flags.rank}`]} alt={flags.id}/>
                     <p className="product__flag">{flags.id}</p>
                 </li>
