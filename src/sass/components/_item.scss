@@ -2,7 +2,9 @@
     padding: 1rem;
     border-radius: .7rem;
     box-shadow: $green-2 1px 1px 3px 2px;
-    margin: 2rem 0;
+    margin: 2rem;
+    max-height: 55.3rem;
+
     li {
         list-style-type: none;
     }
@@ -14,6 +16,8 @@
 
     &__image {
         width: 100%;
+        max-width: 36.3rem;
+        max-height: 36.3rem;
     }
 
     &__name-overlay {
