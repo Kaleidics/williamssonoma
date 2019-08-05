@@ -6,6 +6,15 @@ This is the repo for the Williams Sonoma code test.
 
 Deployed live website at [Williams Sonoma Code Test](https://wscodetest.netlify.com/)
 
+# Accomplishments
+- Reads JSON data from the downloaded seed file. Was not able to fetch from client, blocked by CORS and
+  also blocked by 403 Forbidden when using a Node server to proxy
+- Displays each product with hero image, name, flags (with custom icons), special message, price
+- Carousel is an overlay and you can cycle through the images, both by arrows and by the button navigation
+- Mobile first design
+- Responsive from width: 320px up to 1920px. Responsive one column to three column layout.
+- Basic SEO HTML `head` metadata
+- Accessibility: tab indexing, `alt` tag, `aria-label` tag, `role`
 # Technology
 The code test uses the following:
 
