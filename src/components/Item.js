@@ -37,7 +37,7 @@ export default class Item extends React.Component {
         //the actual card for each product
         return (
             <>
-                <div id={item.id} className="product" style={this.props.style} tabIndex={this.props.tab} onClick={() => this.props.toggleClick(item.images)}>
+                <div id={item.id} className="product" style={this.props.style} tabIndex="0" onClick={() => this.props.toggleClick(item.images)}>
                     <div className="product__hero">
                         <img className="product__image" src={item.hero.href} alt={item.name} />
                         <p className="product__name-overlay">{item.name}</p>
