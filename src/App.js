@@ -11,6 +11,7 @@ export default class App extends React.Component {
     }
   }
 
+  //sets the seed data from seed file to the state
   componentDidMount() {
     this.setState({
       items: seed.groups
@@ -18,7 +19,7 @@ export default class App extends React.Component {
   }
 
   render() {
-    console.log(this.state.items)
+    console.log(this.state.items);
     return (
     <div className="App" >
         <ItemsContainer data={this.state.items} />

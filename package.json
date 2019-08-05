@@ -31,7 +31,10 @@
   },
   "description": "Eddie Chu Williams Sonoma test",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0"
+  },
   "author": "Eddie Chu",
   "license": "ISC"
 }

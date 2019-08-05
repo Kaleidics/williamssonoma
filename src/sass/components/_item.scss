@@ -6,11 +6,10 @@
     max-height: 55.3rem;
     transition: .2s;
     animation: fadeIn 1s ease-in backwards;
-
     cursor: pointer;
 
-    &:hover {
-        transform: translateY(-3px);
+    &:hover, &:focus {
+        transform: translateY(-5px);
     }
 
     li {
