@@ -62,10 +62,17 @@ export default class Carousel extends React.Component {
             <div className="carousel">
                 <div className="carousel__container">
                     <img className="carousel__image" src={this.props.allImages[this.state.currentImage].href} alt={this.props.allImages[this.state.currentImage].rel} />
-                    <span className="carousel__left-arrow" onClick={this.previousImage} />
-                    <span className="carousel__right-arrow" onClick={this.nextImage} />
+                    <span className="carousel__left-arrow" onClick={this.previousImage}>
+                        <div className="left-arrow-1" />
+                        <div className="left-arrow-2" />
+                    </span>
+                    <span className="carousel__right-arrow" onClick={this.nextImage}>
+                        <div className="right-arrow-1" />
+                        <div className="right-arrow-2" />
+                    </span>
                     <span className="carousel__close" onClick={this.closeCarousel}>
-                        close
+                        <div className="close-arrow-1" />
+                        <div className="close-arrow-2" />
                     </span>
                     <div className="carousel__nav">{carouselIndex}</div>
                 </div>
