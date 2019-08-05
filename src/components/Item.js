@@ -24,8 +24,6 @@ export default class Item extends React.Component {
             );
         });
 
-        console.log(this.props.data);
-        console.log(item);
         //build a list of flags/icons from the provided data
         let flags = item.flags.map((flags, index) => {
             return (
@@ -39,7 +37,7 @@ export default class Item extends React.Component {
         //the actual card for each product
         return (
             <>
-                <div className="product" style={this.props.style} tabIndex={this.props.tab}>
+                <div id={item.id} className="product" style={this.props.style} tabIndex={this.props.tab} onClick={() => this.props.toggleClick(item.images)}>
                     <div className="product__hero">
                         <img className="product__image" src={item.hero.href} alt={item.name} />
                         <p className="product__name-overlay">{item.name}</p>
