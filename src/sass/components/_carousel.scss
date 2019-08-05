@@ -45,9 +45,10 @@
 
     &__close {
         width: 5rem;
-        background: red;
+        height: 5rem;
+        background-color: transparent;
         position: absolute;
-        top: 5%;
+        top: 0;
         right: 0;
         cursor: pointer;
     }
