@@ -1,21 +1,22 @@
 .product {
     padding: 1rem;
-    border-radius: .7rem;
-    box-shadow: rgba($grey-1, .2) 1px 1px 3px 2px;
+    border-radius: 0.7rem;
+    box-shadow: rgba($grey-1, 0.2) 1px 1px 3px 2px;
     margin: 2rem;
     max-height: 55.3rem;
-    transition: .2s;
+    transition: 0.2s;
     animation: fadeIn 1s ease-in backwards;
     cursor: pointer;
 
-    &:hover, &:focus {
+    &:hover,
+    &:focus {
         transform: translateY(-5px);
     }
 
     li {
         list-style-type: none;
     }
-    
+
     &__hero {
         position: relative;
         line-height: 0;
@@ -32,7 +33,7 @@
         top: 0;
         width: 100%;
         padding: 0 1rem;
-        background-color: rgba($white-2, .8);
+        background-color: rgba($white-2, 0.8);
         font-size: 1.6rem;
         line-height: 1.2;
         color: $black-1;
@@ -43,17 +44,9 @@
         bottom: 0;
         padding: 1.5rem 1rem;
         margin: 2rem 1rem;
-        background-color: rgba($grey-1, .8);
+        background-color: rgba($grey-1, 0.8);
         font-size: 1.6rem;
         color: $white-1;
-    }
-
-    &__details {
-
-    }
-
-    &__details-list {
-
     }
 
     &__specifications {
@@ -88,10 +81,6 @@
         &::first-letter {
             text-transform: uppercase;
         }
-    }
-
-    &__messages-container {
-
     }
 
     &__message {
