@@ -15,6 +15,7 @@ Deployed live website at [Williams Sonoma Code Test](https://wscodetest.netlify.
 - Responsive from width: 320px up to 1920px. Responsive one column to three column layout.
 - Basic SEO HTML `head` metadata
 - Accessibility: tab indexing, `alt` tag, `aria-label` tag, `role`
+- 100s on Google Lighthouse Audit: [Report](https://i.gyazo.com/27047fe1f8be7c0bc7f195c9e5284581.png)
 # Technology
 The code test uses the following:
 
