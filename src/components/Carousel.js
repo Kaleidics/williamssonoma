@@ -52,7 +52,7 @@ export default class Carousel extends React.Component {
 
     render() {
         let carouselIndex = this.props.allImages.map((image, index) => {
-            return <span className="carousel__image-index" index={index} onClick={() => this.setByIndex(index)} style={{backgroundColor: this.state.currentImage === index ? "#fff" : "transparent"}} />;
+            return <span className="carousel__image-index" key={index} index={index} onClick={() => this.setByIndex(index)} style={{backgroundColor: this.state.currentImage === index ? "#fff" : "transparent"}} />;
         });
 
         return (

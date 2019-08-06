@@ -34,9 +34,9 @@ export default class ItemsContainer extends React.Component {
 
         //build a list of cards from the provided seed data
         let itemsList;
-        itemsList = this.props.data.map( (item, index) => {
-            return <Item data={item} key={index} style={{ animationDelay: `${index / 10}s` }} toggleClick={this.toggleClick} reset={this.reset} />
-        });
+            itemsList = this.props.data.map((item, index) => {
+                return <Item data={item} key={index} style={{ animationDelay: `${index / 10}s` }} toggleClick={this.toggleClick} reset={this.reset} />;
+            });
 
         return <div className="items-container">{itemsList}{carousel}</div>;
     }
