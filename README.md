@@ -60,5 +60,19 @@ npm start
 npm test
 ```
 
+5. If tests do not automatically run, press `a` to run all tests when prompted by terminal
+
+```
+Press `a` to run all tests, or run Jest with `--watchAll`.
+
+Watch Usage
+ › Press a to run all tests.
+ › Press f to run only failed tests.
+ › Press q to quit watch mode.
+ › Press p to filter by a filename regex pattern.
+ › Press t to filter by a test name regex pattern.
+ › Press Enter to trigger a test run.
+```
+
 
 Eddie Chu - [eddiechu.dev](https://www.eddiechu.dev/)
