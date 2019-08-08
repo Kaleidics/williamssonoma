@@ -20,14 +20,14 @@
     &__hero {
         position: relative;
         line-height: 0;
-        border-radius: .7rem;
+        border-radius: 0.7rem;
     }
 
     &__image {
         width: 100%;
         max-width: 36.3rem;
         max-height: 36.3rem;
-        border-radius: .7rem;
+        border-radius: 0.7rem;
     }
 
     &__name-overlay {
@@ -39,7 +39,7 @@
         font-size: 1.6rem;
         line-height: 1.2;
         color: $black-1;
-        border-radius: .7rem;
+        border-radius: 0.7rem;
     }
 
     &__price-overlay {
