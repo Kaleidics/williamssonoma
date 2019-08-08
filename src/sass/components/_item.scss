@@ -40,6 +40,8 @@
         line-height: 1.2;
         color: $black-1;
         border-radius: 0.7rem;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
     }
 
     &__price-overlay {
